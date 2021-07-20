@@ -1,11 +1,11 @@
 spring:
   application:
-    name: rabbitmq-producer-basic
+    name: rabbitmq-producer
   rabbitmq:
     host: localhost
     port: 5672
-    username: admin
-    password: admin
+    username: guest
+    password: guest
 
 server:
   port: 8001
