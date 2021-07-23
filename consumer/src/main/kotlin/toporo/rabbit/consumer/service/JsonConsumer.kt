@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service
 import toporo.rabbit.consumer.entitie.MessageObject
 
 @Service
-class JsonConsumer (
-    private val messageConverter: MessageConverter
+class JsonConsumer {
+    /*private val messageConverter: MessageConverter
 ){
     private val log = LoggerFactory.getLogger(javaClass)
 
@@ -18,5 +18,5 @@ class JsonConsumer (
         log.info("receive message from ${message.messageProperties.consumerQueue}")
         val person = messageConverter.fromMessage(message) as MessageObject
         log.info("body $person")
-    }
+    }*/
 }
